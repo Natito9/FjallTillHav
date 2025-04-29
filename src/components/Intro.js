@@ -1,6 +1,6 @@
 export default function Intro() {
     return (
-      <section id="about" data-theme="light" className=" h-auto ]md:h-[90vh] p-9 md:p-17 flex justify-center md:justify-end items-center w-full">
+      <section id="project" data-theme="light" className=" h-auto ]md:h-[90vh] p-9 md:p-17 flex justify-center md:justify-end items-center w-full">
         <div className="flex flex-col w-[90%] md:w-[50%] max-w-[900px]">
           <h1 className="text-5xl md:text-5xl font-extrabold mb-4 text-sky-900 font-[Arial Black] tracking-tight pb-3">
             Från Fjäll till Hav

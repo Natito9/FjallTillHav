@@ -6,6 +6,8 @@ import BannerKr from "@/components/BannerKr";
 import VideoSection from "@/components/VideoSection";
 import SpringerSection from "@/components/SpringerSection";
 import Documentary from "@/components/Documentary";
+import FundingLevels from "@/components/FundingLevels";
+import AboutUs from "@/components/AboutUs";
 
 export default function Home() {
   return (
@@ -26,6 +28,8 @@ export default function Home() {
       <VideoSection/>
       <SpringerSection/>
       <Documentary/>
+      <FundingLevels/>
+      <AboutUs/>
 
       
     </>

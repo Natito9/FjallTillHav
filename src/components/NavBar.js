@@ -36,13 +36,13 @@ export default function NavBar() {
           </a>
         </li>
         <li>
-          <a href="#about" className={`no-underline font-bold transition-colors px-4 py-2  ${textColor}  hover:border-b-2 `}>
-            About
+          <a href="#project" className={`no-underline font-bold transition-colors px-4 py-2  ${textColor}  hover:border-b-2 `}>
+            Project
           </a>
         </li>
         <li>
-          <a href="#donate" className={`no-underline font-bold transition-colors px-4 py-2  ${textColor}  hover:border-b-2 `}>
-            Donate
+          <a href="#aboutUs" className={`no-underline font-bold transition-colors px-4 py-2  ${textColor}  hover:border-b-2 `}>
+            About us
           </a>
         </li>
       </ul>
