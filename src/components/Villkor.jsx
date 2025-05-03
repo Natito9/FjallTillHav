@@ -56,16 +56,16 @@ export default function Villkor() {
   ];
 
   return (
-    <section className="p-6 space-y-4 flex flex-col justify-center items-center" data-theme="dark">
+    <section className="p-20 space-y-4 flex flex-col justify-center items-center" data-theme="dark">
       <button
         onClick={() => setShowSections(!showSections)}
-        className="cursor-pointer text-black font-semibold px-6 py-3 rounded-3xl border-2 border-b-sky-900 hover:bg-sky-900 hover:text-white transition"
+        className="cursor-pointer font-semibold px-6 py-3 rounded-3xl border-2 hover:bg-sky-900 hover:text-white transition"
       >
         Allmänna villkor
       </button>
 
       <div
-        className={`transition-all overflow-hidden duration-700 ease-in-out w-full flex justify-center ${
+        className={`transition-all overflow-hidden duration-900 ease-in-out w-full flex justify-center ${
           showSections ? 'max-h-[2000px] opacity-100 mt-4' : 'max-h-0 opacity-0'
         }`}
       >
@@ -73,16 +73,16 @@ export default function Villkor() {
           {sections.map((section, index) => (
             <div
               key={index}
-              className=" transition"
+            
             >
               <button
                 onClick={() => setOpenIndex(openIndex === index ? null : index)}
-                className="w-full text-left px-6 py-4 cursor-pointer text-lg font-semibold hover:bg-black/10 hover:text-white"
+                className='underline cursor-pointer px-4 py-1 '
               >
                 {section.title}
               </button>
               <div
-                className={`overflow-hidden transition-all duration-500 ease-in-out ${
+                className={`overflow-hidden transition-all duration-900 ease-in-out ${
                   openIndex === index ? 'max-h-[1000px]' : 'max-h-0'
                 }`}
               >

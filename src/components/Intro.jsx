@@ -22,26 +22,23 @@ export default function Intro() {
           </h1>
   
           <h2 className=" text-white text-2xl md:text-1xl font-extrabold mb-4 font-[Arial Black] pb-5">
-            Ett löpäventyr för vår planets framtid
+          Vi springer för glaciärerna
           </h2>
   
           <p className="pb-2">
-            Från fjällens eviga snö till havets öppna vidder löper vår resa – och du
-            är en del av den.
+          Den 8 juli knyter vi skorna i Abisko. Då startar vår utmaning: att springa hela Kungsleden – över 440 kilometer genom Sveriges vildaste natur.
+
           </p>
           <p className="pb-2">
-            Från Fjäll till Hav är ett insamlingsäventyr där vi springer hela
-            Kungsleden, över 440 kilometer genom Sveriges vildaste natur, för att
-            sprida hopp och skapa förändring
+          Varje krona som skänks motsvarar en meter vi springer. Pengarna går till finansieringen av dokumentären Guardians of the Glacier, och överskottet från insamlingen skänks till Hands2Ocean, en organisation som kämpar mot plastföroreningar i haven.
+
           </p>
           <p className="pb-2">
-            Varje krona som skänks förvandlas till en meter vi springer, och
-            överskottet från insamlingen går till Hands2Ocean – en organisation som
-            kämpar för att rädda våra hav från plastföroreningar.
+          Genom Från Fjäll till Hav förenar vi äventyr och engagemang.
           </p>
           <p className="pb-2">
-            Tillsammans berättar vi en större historia, en historia om mod,
-            samarbete och kärleken till vår planet.
+          Tillsammans visar vi att hopp, mod och kärlek till naturen kan skapa verklig förändring.
+
           </p>
         </div>
       </section>
