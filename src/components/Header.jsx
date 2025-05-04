@@ -6,7 +6,7 @@ export default function Header() {
     <header
       id="home"
       data-theme="dark"
-           className="relative grid md:grid-cols-2 grid-cols-1 h-[90vh] overflow-hidden md:p-9"
+           className="relative grid md:grid-cols-2 grid-cols-1 h-auto overflow-hidden md:p-9"
     >
           <Image
         src="/assets/FFTH-BG2.png"
