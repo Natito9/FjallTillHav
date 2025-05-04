@@ -56,22 +56,22 @@ export default function Villkor() {
 
   return (
     <section
-      className="p-20 space-y-4 flex flex-col justify-center items-center"
+      className=" p-7 md:p-20 space-y-4 flex flex-col md:justify-center items-center"
       data-theme="dark"
     >
       <button
         onClick={() => setShowSections(!showSections)}
-        className="cursor-pointer font-semibold px-6 py-3 rounded-3xl border-1 hover:bg-sky-900 hover:border-0 hover:text-white transition"
+        className="cursor-pointer font-semibold px-6 py-3 rounded-3xl border-1 hover:bg-sky-900 hover:border-0 hover:text-white transition max-w-[300px]"
       >
         + Allmänna villkor
       </button>
 
       <div
-        className={`transition-all overflow-hidden duration-900 ease-in-out w-full flex justify-center ${
+        className={`transition-all overflow-hidden duration-900 ease-in-out w-full ${
           showSections ? "max-h-[2000px] opacity-100 mt-4" : "max-h-0 opacity-0"
         }`}
       >
-        <div className="space-y-4 w-[90%] max-w-[600px]">
+        <div className="space-y-4 max-w-[600px]">
           {sections.map((section, index) => (
             <div key={index}>
               <button

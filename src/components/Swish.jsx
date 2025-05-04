@@ -9,8 +9,8 @@ export default function Swish() {
     }
   
   return (
-    <div className="flex flex-col justify-center items-center text-center text-white h-auto md:h-[500px]">
-      <button className="bg-sky-800 hover:bg-sky-950 text-white font-semibold py-3 px-6 rounded-3xl shadow-md transition-all duration-300  w-[60%] max-w-xs md:max-w-sm min-w-3 md:mb-6 cursor-pointer">
+    <div className="flex flex-col justify-center align-bottom items-center text-center text-white h-auto gap-7">
+      <button className="bg-sky-800 hover:bg-sky-950 text-white font-semibold py-3 px-6 rounded-3xl shadow-md transition-all duration-300  w-[60%] max-w-xs md:max-w-sm min-w-3  cursor-pointer">
         Swisha här
       </button>
     <div className="">
@@ -22,8 +22,8 @@ export default function Swish() {
        src="/assets/ffthQR-web.png"
        alt="QR Code for Swish donation"
        width={150}
-       height={150}
-       className="w-[150px] h-[150px] md:w-[200px] md:h-[200px] mb-7 md:m-0"
+       height={200}
+       className="w-[150px] h-[170px] md:w-[200px] md:h-[220px] mb-7 md:m-0"
      />
 
 ) }
