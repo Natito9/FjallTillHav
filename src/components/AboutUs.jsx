@@ -27,9 +27,9 @@ export default function AboutUs() {
           En podd för dig som vill inspireras, lära dig något nytt och kanske
           själv ta steget ut i det okända.
         </p>
-        <div className="rounded-xl overflow-hidden mt-10">
+        <div className="rounded-xl overflow-hidden mt-10 flex justify-center items-center">
           <iframe
-            className="w-full h-[350px]"
+            className="w-3/4 h-[350px]"
             src="https://open.spotify.com/embed/show/10IPCGZjTK1PlLEI7JhPUX?utm_source=generator&theme=0"
             frameBorder="0"
             allowFullScreen
