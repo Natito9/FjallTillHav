@@ -29,7 +29,7 @@ export default function AboutUs() {
         </p>
         <div className="rounded-xl overflow-hidden mt-10 flex justify-center items-center">
           <iframe
-            className="w-3/4 h-[350px]"
+            className="w-full md:w-[85%] h-[350px]"
             src="https://open.spotify.com/embed/show/10IPCGZjTK1PlLEI7JhPUX?utm_source=generator&theme=0"
             frameBorder="0"
             allowFullScreen

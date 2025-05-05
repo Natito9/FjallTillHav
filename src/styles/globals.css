@@ -26,6 +26,7 @@
   :root {
     --background: #0a0a0a;
     --foreground: #ededed;
+    --headers: #052e47;
   }
 }
 
@@ -40,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   font-family: 'Arial Black', sans-serif;
 }
 h1,h2 {
-  color: #052e47
+  color: var(--headers)
 }
 p {
   /* color: white; */
