@@ -30,7 +30,7 @@ export default function Intro() {
 
           </p>
           <p className="pb-2">
-          Varje krona som skänks motsvarar en meter vi springer. Pengarna går till finansieringen av dokumentären Guardians of the Glacier, och överskottet från insamlingen skänks till Hands2Ocean, en organisation som kämpar mot plastföroreningar i haven.
+          Varje krona motsvarar en meter vi springer. Pengarna går till finansieringen av dokumentären Guardians of the Glacier, och överskottet från insamlingen skänks till Hands2Ocean, en organisation som kämpar mot plastföroreningar i haven.
 
           </p>
           <p className="pb-2">

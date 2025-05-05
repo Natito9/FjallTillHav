@@ -4,10 +4,19 @@ export default function AboutUs() {
   return (
     <section
       id="aboutUs"
-      className="relative min-h-screen p-9 md:p-17 flex flex-col md:flex-row items-center w-full"
-    >
-      <div className="w-full md:w-1/2 max-w-[900px] p-5 ">
-        <h2 className="uppercase text-5xl font-extrabold mb-4 text-sky-900 font-[Arial Black] tracking-tight pb-3">
+      className="relative min-h-screen p-9 md:p-17 md:pb-1 flex flex-col md:flex-row items-center w-full"
+        style={{
+              background: 'rgba(0, 0, 0, 0.3)'
+            }}>
+                   <Image
+                                src="/assets/FFTH6test.jpg"
+                                alt="Background"
+                                fill
+                                priority
+                                className="object-cover object-center -z-10"
+                              />
+      <div className="w-full md:w-1/2 max-w-[900px] text-white ">
+        <h2 className="uppercase text-5xl font-extrabold mb-4 tracking-tight pb-3">
           Om oss
         </h2>
         <h3 className="text-2xl font-extrabold mb-4 font-[Arial Black] pb-5">
@@ -16,20 +25,20 @@ export default function AboutUs() {
         </h3>
 
         <p className="pb-2">
-          Vill du höra mer om våra äventyr, projekt och passion för naturen?
-          Lyssna på ROOKIIS x – där vi utforskar friluftsliv, uthållighet och
-          vad det innebär att ta sig an stora utmaningar, oavsett
-          erfarenhetsnivå.
+        Vi har alltid dragits till utmaningar, till det där som kräver lite mer: de höga bergen, de långa lederna, de tidiga morgnarna och de sena kvällarna ute i naturen.
         </p>
         <p className="pb-2">
-          Vi pratar med äventyrare, experter och rookies som delar sina
-          berättelser om allt från extrema expeditioner till små vardagsäventyr.
-          En podd för dig som vill inspireras, lära dig något nytt och kanske
-          själv ta steget ut i det okända.
+        Men den här gången handlar det inte bara om att testa våra egna gränser. Det handlar om att ge tillbaka. På riktigt.
         </p>
+        <p className="pb-2">
+        Vill du höra mer om våra äventyr, projekt och passion för naturen? Lyssna på ROOKIIS x – där vi utforskar friluftsliv, uthållighet och vad det innebär att ta sig an stora utmaningar, oavsett erfarenhetsnivå.
+        </p>
+
+
+        <div className="flex flex-col justify-bottom md:mt-50">
         <div className="rounded-xl overflow-hidden mt-10 flex justify-center items-center">
           <iframe
-            className="w-full md:w-[85%] h-[350px]"
+            className="w-full md:w-[85%] h-[200px]"
             src="https://open.spotify.com/embed/show/10IPCGZjTK1PlLEI7JhPUX?utm_source=generator&theme=0"
             frameBorder="0"
             allowFullScreen
@@ -37,16 +46,7 @@ export default function AboutUs() {
             loading="lazy"
           ></iframe>
         </div>
-      </div>
-
-      <div className="relative w-full md:w-1/2 aspect-[3/4] md:aspect-auto md:h-[800px]">
-        <Image
-          src="/assets/FFTH5.png"
-          alt="About Us Image"
-fill
-          className="object-cover rounded-xl  "
-          priority
-        />
+        </div>
       </div>
     </section>
   );

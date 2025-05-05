@@ -10,12 +10,12 @@ export default function Swish() {
   
   return (
     <div className="flex flex-col justify-center align-bottom items-center text-center text-white h-auto gap-7">
-      <button className="bg-sky-800 hover:bg-sky-950 text-white font-semibold py-3 px-6 rounded-3xl shadow-md transition-all duration-300  w-[60%] max-w-xs md:max-w-sm min-w-3  cursor-pointer">
+      <button className="bg-sky-800 hover:bg-sky-600 text-white font-semibold py-3 px-6 rounded-3xl shadow-md transition-all duration-300  w-[60%] max-w-xs md:max-w-sm min-w-3  cursor-pointer">
         Swisha här
       </button>
     <div className="">
-      <button className="py-3 px-6 cursor-pointer rounded-3xl border-1 border-sky-800 hover:bg-sky-900  mb-4"
-       onClick={toggleQR}>{showQR? "Dölj QR-kod" : "Visa QR-kode"}</button>
+      <button className="py-3 px-6 cursor-pointer rounded-3xl border-1 border-sky-800 hover:bg-sky-600  mb-4"
+       onClick={toggleQR}>{showQR? "Dölj QR-kod" : "Visa QR-kod"}</button>
     
 {showQR && (
        <Image

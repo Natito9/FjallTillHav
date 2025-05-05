@@ -62,7 +62,7 @@ export default function Villkor() {
     <div className=" w-full border-1 mb-15"></div>
       <button
         onClick={() => setShowSections(!showSections)}
-        className="cursor-pointer font-semibold px-6 py-3 rounded-3xl border-1 hover:bg-sky-900 hover:border-0 hover:text-white transition max-w-[300px]"
+        className="cursor-pointer font-semibold px-6 py-3 rounded-3xl border-1 hover:bg-sky-600 hover:border-0 hover:text-white transition max-w-[300px]"
       >
         + Allmänna villkor
       </button>
