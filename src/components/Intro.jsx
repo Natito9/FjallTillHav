@@ -21,9 +21,9 @@ export default function Intro() {
             Från Fjäll till Hav
           </h1>
   
-          <h3 className=" text-white text-2xl md:text-1xl font-extrabold mb-4 font-[Arial Black] pb-5">
+          <h2 className=" !text-white text-2xl md:text-1xl font-extrabold mb-4 font-[Arial Black] pb-5">
           Vi springer för glaciärerna
-          </h3>
+          </h2>
   
           <p className="pb-2">
           Den 8 juli knyter vi skorna i Abisko. Då startar vår utmaning: att springa hela Kungsleden – över 440 kilometer genom Sveriges vildaste natur.

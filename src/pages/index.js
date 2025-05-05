@@ -1,4 +1,4 @@
-import Head from "next/head";
+import Head from "@/components/Head";
 import NavBar from "@/components/NavBar";
 import Header from "@/components/Header";
 import Intro from "@/components/Intro";
@@ -13,27 +13,19 @@ import Villkor from "@/components/Villkor";
 export default function Home() {
   return (
     <>
-     <Head>
-        <title>Från Fjäll till Hav | Ett löpäventyr för vår planets framtid</title>
-        <meta
-          name="description"
-          content="Ett insamlingsäventyr där vi springer hela
-            Kungsleden, över 440 kilometer genom Sveriges vildaste natur, för att
-            sprida hopp och skapa förändring"
-        />
-      </Head>
-      <NavBar/>
-      <Header/>
-      <BannerKr/>
-      <Intro/>
-      <VideoSection/>
-      <SpringerSection/>
-      <Documentary/>
-      <FundingLevels/>
-      <AboutUs/>
-      <Villkor/>
-
-      
+      <Head />
+      <main>
+      <NavBar />
+      <Header />
+      <BannerKr />
+      <Intro />
+      <VideoSection />
+      <SpringerSection />
+      <Documentary />
+      <FundingLevels />
+      <AboutUs />
+      <Villkor />
+      </main>
     </>
   );
 }

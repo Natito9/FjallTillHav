@@ -42,6 +42,7 @@ export default function AboutUs() {
             src="https://open.spotify.com/embed/show/10IPCGZjTK1PlLEI7JhPUX?utm_source=generator&theme=0"
             frameBorder="0"
             allowFullScreen
+            title="Spotify Podcast Rookiis x"
             allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
             loading="lazy"
           ></iframe>
