@@ -9,6 +9,7 @@ import Documentary from "@/components/Documentary";
 import FundingLevels from "@/components/FundingLevels";
 import AboutUs from "@/components/AboutUs";
 import Villkor from "@/components/Villkor";
+import Ocean from "@/components/Ocean";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Documentary />
       <FundingLevels />
       <AboutUs />
+      <Ocean/>
       <Villkor />
       </main>
     </>
