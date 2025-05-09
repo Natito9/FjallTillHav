@@ -21,7 +21,7 @@ export default function Ocean() { return(
               </h2>
       
               <h3 className="text-2xl font-extrabold mb-4 font-[Arial Black] pb-5">
-              Hands2Ocean är en ideell organisation som arbetar för att skydda våra hav från plastföroreningar och bevara den marina mångfalden för framtida generationer.
+              Hands 2 Ocean är en ideell organisation som arbetar för att skydda våra hav från plastföroreningar och bevara den marina mångfalden för framtida generationer.
     
               </h3>
               <p className="pb-2">
