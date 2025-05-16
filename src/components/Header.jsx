@@ -1,4 +1,4 @@
-import Swish from "@/components/Swish";
+import Swish from "@/components/swish/Swish";
 import Image from "next/image";
 
 export default function Header() {
