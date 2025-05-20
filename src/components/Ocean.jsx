@@ -1,7 +1,7 @@
 import Image from "next/image"
 
 export default function Ocean() { return(
-        <section id="project" data-theme="dark" className="relative h-auto ]md:h-[90vh] px-4 py-15 md:p-17 flex justify-center md:justify-end items-center w-full"
+        <section id="project" data-theme="dark" className="relative h-auto  px-4 py-15 md:p-17 flex justify-center md:justify-end items-center w-full"
           style={{
             background: 'rgba(0, 0, 0, 0.3)'
           }}>
