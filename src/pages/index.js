@@ -8,8 +8,9 @@ import SpringerSection from "@/components/SpringerSection";
 import Documentary from "@/components/Documentary";
 import FundingLevels from "@/components/FundingLevels";
 import AboutUs from "@/components/AboutUs";
-import Villkor from "@/components/Villkor";
 import Ocean from "@/components/Ocean";
+import Footer from "@/components/Footer";
+import Villkor from "@/components/Villkor";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <FundingLevels />
       <AboutUs />
       <Ocean/>
+      <Footer />
       <Villkor />
       </main>
     </>
