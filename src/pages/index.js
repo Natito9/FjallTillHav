@@ -1,6 +1,6 @@
-import Head from "@/components/Head";
+
 import NavBar from "@/components/NavBar";
-import Header from "@/components/Header";
+import Header from "@/components/Hero/Header";
 import Intro from "@/components/Intro";
 import BannerKr from "@/components/BannerKr";
 import VideoSection from "@/components/VideoSection";
@@ -11,14 +11,16 @@ import AboutUs from "@/components/AboutUs";
 import Ocean from "@/components/Ocean";
 import Footer from "@/components/Footer";
 import Villkor from "@/components/Villkor";
+import ScrollingLogos from "@/components/Hero/ScrollingLogos";
 
 export default function Home() {
   return (
     <>
-      <Head />
-      <main>
+    
+  
       <NavBar />
       <Header />
+      <ScrollingLogos/>
       <BannerKr />
       <Intro />
       <VideoSection />
@@ -29,7 +31,7 @@ export default function Home() {
       <Ocean/>
       <Footer />
       <Villkor />
-      </main>
+    
     </>
   );
 }
