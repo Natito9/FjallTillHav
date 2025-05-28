@@ -1,0 +1,15 @@
+{
+    "version": 1,
+    "payee": {
+      "value": "1234742532", 
+      "editable": false
+    },
+    "amount": {
+      "value": "100", 
+      "editable": true
+    },
+    "message": {
+      "value": "Stöd Från fjäll till hav", 
+      "editable": false
+    }
+  }
