@@ -1,4 +1,5 @@
 @import "tailwindcss";
+
 @import url('https://fonts.googleapis.com/css2?family=Cal+Sans&display=swap');
 
 @font-face {
@@ -59,4 +60,13 @@ li {
 }
 html {
   scroll-behavior: smooth;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
 }
