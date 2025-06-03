@@ -1,7 +1,6 @@
-// components/SwishPaymentButton.js
 import React, { useState } from "react";
 import { v4 as uuidv4 } from 'uuid';
-import { useRouter } from 'next/router'; // Import useRouter
+import { useRouter } from 'next/router'; 
 
 export default function SwishPaymentButton() {
   const [loading, setLoading] = useState(false);
@@ -9,7 +8,7 @@ export default function SwishPaymentButton() {
   const [paymentUrl, setPaymentUrl] = useState(null);
   const [appLaunchMessage, setAppLaunchMessage] = useState(null);
 
-  const router = useRouter(); // Initialize useRouter
+  const router = useRouter(); 
 
   const handleClick = async () => {
     setLoading(true);
@@ -21,7 +20,6 @@ export default function SwishPaymentButton() {
 
     const paymentDetails = {
       amount: "100",
-      // message: "Kingston USB Flash Drive 8 GB",
       message:"Stöd",
       callbackIdentifier: uniqueCallbackId,
     };
@@ -40,25 +38,20 @@ export default function SwishPaymentButton() {
       if (response.ok) {
         if (data.paymentUrl) {
           setPaymentUrl(data.paymentUrl);
-          // Attempt to open the Swish app
           window.location.href = data.paymentUrl;
 
-          // Set a timeout to display a message if the app doesn't open immediately
-          const timeoutId = setTimeout(() => {
-            setAppLaunchMessage(
-              "Om Swish-appen inte öppnades, se till att den är installerad på denna enhet."
-            );
-            // Use router.push for reliable navigation to receipt page
+          setAppLaunchMessage(
+            "Om Swish-appen inte öppnades, se till att den är installerad på denna enhet."
+          );
+          setTimeout(() => {
             router.push(`/receipt?ref=${data.id}`);
-          }, 1500); // Keep this timeout, but increase if issues persist on mobile
-
+          }, 1500);
         } else {
           // This path handles immediate payment in simulator (no deep-link URL)
           setPaymentUrl(null);
           setError(null);
           alert(data.message || "Betalning behandlades framgångsrikt utan djup-länk.");
           console.log("Payment processed immediately:", data.message);
-          // Use router.push for reliable navigation to receipt page
           router.push(`/receipt?ref=${data.id}`);
         }
       } else {
