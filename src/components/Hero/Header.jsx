@@ -6,7 +6,7 @@ export default function Header() {
     <header
       id="home"
       data-theme="dark"
-           className="relative grid md:grid-cols-2 grid-cols-1 h-auto min-h-[640px] w-full overflow-hidden md:p-9"
+           className="relative grid md:grid-cols-2 grid-cols-1 h-auto md:min-h-[640px] min-h-[1000px] w-full overflow-hidden md:p-9"
     >
           <Image
         src="/assets/FFTH-BG2.png"
@@ -23,7 +23,9 @@ export default function Header() {
         priority
         className="place-self-center w-[80%] md:w-full"
       />
-      <Swish />
+     <div className="flex justify-center items-center w-full h-full">
+        <Swish />
+      </div>
     </header>
   );
 }
