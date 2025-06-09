@@ -12,7 +12,7 @@ export default function DonationEmbed() {
       } else if (width >= 768) {
         setScale(1.1); // Tablet / Medium screen (768–1023px)
       } else {
-        setScale(0.98); // Mobile (<768px)
+        setScale(1); // Mobile (<768px)
       }
     };
 
@@ -20,9 +20,9 @@ export default function DonationEmbed() {
     window.addEventListener("resize", handleResize);
     return () => window.removeEventListener("resize", handleResize);
   }, []);
-
-  return (
-    <div className="w-[301px] h-[523px] md:w-[443px] md:h-[698px] lg:w-[443px] lg:h-[797px] md:mt-20 rounded-xl overflow-hidden flex justify-center items-center">
+return (
+  <div className="w-[310px] h-[449px] md:w-[443px] md:h-[698px] lg:w-[391px] lg:h-[587px] md:mt-20 rounded-xl overflow-hidden flex justify-center items-center">
+    <div className="w-full h-full overflow-hidden rounded-xl">
       <iframe
         src="https://rookiis.com/ffth3-0/"
         width="100%"
@@ -34,8 +34,11 @@ export default function DonationEmbed() {
           border: "none",
           width: `${100 / scale}%`,
           height: `${100 / scale}%`,
+          display: "block",
         }}
       />
     </div>
-  );
+  </div>
+);
+
 }
