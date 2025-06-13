@@ -1,8 +1,8 @@
-import Image from "next/image";
+import Image from 'next/image';
 
-export default function Footer() {
-  return (
-    <footer className="w-full h-auto  px-4 py-15 md:p-10 flex flex-col justify-center items-center bg-black">
+export default function Sponsors() {
+    return(
+        <section className="w-full h-auto  px-4 py-15 md:p-10 flex flex-col justify-center items-center bg-black">
       <h2 className="!text-white !font-nomal !text-xl py-5 pb-17">Tack till</h2>
       <div className="flex flex-col items-center md:flex-row md:flex-wrap gap-14 md:gap-4 md:justify-around w-full md:max-w-[1440px]">
         <div className="relative w-auto md:max-w-[200px] min-w-[100px] max-w-[200px] ">
@@ -47,6 +47,6 @@ export default function Footer() {
         </div>
       </div>
     
-    </footer>
-  );
+    </section>
+    )
 }

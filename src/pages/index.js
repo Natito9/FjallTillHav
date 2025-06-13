@@ -9,9 +9,10 @@ import Documentary from "@/components/Documentary";
 import FundingLevels from "@/components/FundingLevels";
 import AboutUs from "@/components/AboutUs";
 import Ocean from "@/components/Ocean";
-import Footer from "@/components/Footer";
-import Villkor from "@/components/Villkor";
+import Footer from "@/components/footer/Footer";
+import Villkor from "@/components/footer/VillkorLink";
 import ScrollingLogos from "@/components/Hero/ScrollingLogos";
+import Sponsors from "@/components/Sponsors";
 
 export default function Home() {
   return (
@@ -29,8 +30,10 @@ export default function Home() {
       <FundingLevels />
       <AboutUs />
       <Ocean/>
+      <Sponsors />
+
       <Footer />
-      <Villkor />
+   
     
     </>
   );
