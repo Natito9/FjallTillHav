@@ -1,6 +1,6 @@
-// pages/receipt.js
-import React, { useEffect, useState } from 'react';
-import { useRouter } from 'next/router';
+
+import React, { useEffect, useState } from "react";
+import { useRouter } from "next/router";
 
 export default function ReceiptPage() {
   const router = useRouter();
@@ -11,19 +11,14 @@ export default function ReceiptPage() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // This is the CRUCIAL change:
-    // Only proceed if router.isReady (means query params are loaded) AND instructionUUID is actually present.
     if (!router.isReady || !instructionUUID) {
-      // If router is ready but instructionUUID is still missing (e.g., navigated directly without ref),
-      // then it's a real error. Otherwise, just wait for router.isReady.
       if (router.isReady && !instructionUUID) {
-         setLoading(false);
-         setError("Fel: Ingen betalningsreferens hittades i URL:en."); // More specific error message
+        setLoading(false);
+        setError("Fel: Ingen betalningsreferens hittades i URL:en.");
       }
-      return; // Exit useEffect if not ready or no UUID
+      return;
     }
 
-    // Reset states here to ensure a clean fetch if dependencies change
     setLoading(true);
     setError(null);
 
@@ -44,9 +39,8 @@ export default function ReceiptPage() {
       }
     };
 
-    fetchPaymentStatus(); // Call the fetch function only when conditions are met
-
-  }, [instructionUUID, router.isReady]); // Dependencies: re-run if UUID changes or router becomes ready
+    fetchPaymentStatus();
+  }, [instructionUUID, router.isReady]);
 
   if (loading) {
     return <div className="text-center py-10">Laddar betalningsstatus...</div>;
@@ -58,19 +52,26 @@ export default function ReceiptPage() {
 
   return (
     <div className="text-center py-10">
-      <h1 className="text-2xl font-bold">Betalningsstatus för #{instructionUUID}</h1>
-      {paymentStatus === 'PAID' && (
+      <h1 className="text-2xl font-bold">
+        Betalningsstatus för #{instructionUUID}
+      </h1>
+      {paymentStatus === "PAID" && (
         <p className="text-green-600 text-xl mt-4">Betalningen lyckades!</p>
       )}
-      {paymentStatus === 'DECLINED' && (
-        <p className="text-red-600 text-xl mt-4">Betalningen misslyckades. Vänligen försök igen.</p>
+      {paymentStatus === "DECLINED" && (
+        <p className="text-red-600 text-xl mt-4">
+          Betalningen misslyckades. Vänligen försök igen.
+        </p>
       )}
-      {paymentStatus === 'CANCELLED' && (
-        <p className="text-yellow-600 text-xl mt-4">Betalningen avbröts av användaren.</p>
+      {paymentStatus === "CANCELLED" && (
+        <p className="text-yellow-600 text-xl mt-4">
+          Betalningen avbröts av användaren.
+        </p>
       )}
-      {/* If paymentStatus is still null or unexpected after loading */}
       {!paymentStatus && (
-          <p className="text-gray-200 text-xl mt-4">Status ej tillgänglig än, vänligen försök igen senare.</p>
+        <p className="text-gray-200 text-xl mt-4">
+          Status ej tillgänglig än, vänligen försök igen senare.
+        </p>
       )}
     </div>
   );
