@@ -1,4 +1,4 @@
-export default function VideoSection() {
+export default function VideoProject() {
   return (
     <section  data-theme="dark" className="flex justify-center items-center h-[50vh] md:h-[70vh] w-full ">
       <div className="relative w-[80%] max-w-[800px] aspect-video">

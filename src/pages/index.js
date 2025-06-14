@@ -1,40 +1,35 @@
-
+import CostumeHead from "@/components/head/CostumeHead";
 import NavBar from "@/components/NavBar";
 import Header from "@/components/Hero/Header";
 import Intro from "@/components/Intro";
 import BannerKr from "@/components/BannerKr";
-import VideoSection from "@/components/VideoSection";
+import VideoProject from "@/components/videos/VideoProject";
 import SpringerSection from "@/components/SpringerSection";
-import Documentary from "@/components/Documentary";
+import VideoDocumentary from "@/components/videos/VideoDocumentary";
 import FundingLevels from "@/components/FundingLevels";
 import AboutUs from "@/components/AboutUs";
 import Ocean from "@/components/Ocean";
 import Footer from "@/components/footer/Footer";
-import Villkor from "@/components/footer/VillkorLink";
 import ScrollingLogos from "@/components/Hero/ScrollingLogos";
 import Sponsors from "@/components/Sponsors";
 
 export default function Home() {
   return (
     <>
-    
-  
+     <CostumeHead />
       <NavBar />
       <Header />
-      <ScrollingLogos/>
+      <ScrollingLogos />
       <BannerKr />
       <Intro />
-      <VideoSection />
+      <VideoProject />
       <SpringerSection />
-      <Documentary />
+      <VideoDocumentary />
       <FundingLevels />
       <AboutUs />
-      <Ocean/>
+      <Ocean />
       <Sponsors />
-
       <Footer />
-   
-    
     </>
   );
 }
