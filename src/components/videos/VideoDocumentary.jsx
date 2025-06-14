@@ -1,4 +1,4 @@
-export default function Documentary() {
+export default function VideoDocumentary() {
     return (
         <section className="flex justify-center items-center h-[50vh] md:h-[70vh] w-full ">
         <div className="relative w-[80%] max-w-[800px] aspect-video">
@@ -13,4 +13,3 @@ export default function Documentary() {
           </section>
     );
   }
-//   https://www.youtube.com/watch?v=v1A8rSpC048&ab_channel=ROOKIISOttoBl%C3%BCcker
