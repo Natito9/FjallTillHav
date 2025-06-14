@@ -16,11 +16,11 @@ export default function Header() {
         className="object-cover object-center -z-10"
       />
       <Image
-        src="/assets/FRÅN-FJÄLL-TILL-HAV-LOGO.png"
+        src="/assets/FFTH-logo.png"
         alt="Logo Från Fjäll till Hav"
         width={500}
         height={300}
-        priority
+         priority={true}
         className="place-self-center w-[80%] md:w-full"
       />
      <div className="flex justify-center items-center w-full h-full">
