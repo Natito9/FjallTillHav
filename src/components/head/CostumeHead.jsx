@@ -25,7 +25,7 @@ export default function CustomHead() {
       <meta property="og:url" content="https://www.franfjalltillhav.se/" />
       <meta
         property="og:image"
-        content="https://www.franfjalltillhav.se/Img-social-card.png"
+        content="https://www.franfjalltillhav.se/assets/Img-social-card.png"
       />
 
       <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
