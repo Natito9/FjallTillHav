@@ -7,6 +7,7 @@ const baseLogos = [
   { src: "/assets/logos/dacia.png", alt: "Dacia Logo" },
   { src: "/assets/logos/silva.png", alt: "Silva Logo" },
   { src: "/assets/logos/stf.png", alt: "Stf Logo" },
+   { src: "/assets/logos/lactigo.png", alt: "Lactigo Logo" },
 ];
 
 
