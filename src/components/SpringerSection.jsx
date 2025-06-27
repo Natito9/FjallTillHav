@@ -37,7 +37,7 @@ export default function SpringerSection() {
         <p className="pb-2">
           Vi följer äventyraren och fotografen Oskar Kihlborg, som tillsammans
           med forskare och lokala röster lägger ut gigantiska filtar över en
-          smältande glaciär i Jämtlandsfjällen.
+          smältande glaciär i Kebnekaisemassivet.
         </p>
         <p className="pb-2">
         Men filmen handlar också om
