@@ -9,6 +9,7 @@ const baseLogos = [
   { src: "/assets/logos/stf.png", alt: "Stf Logo" },
    { src: "/assets/logos/lactigo.png", alt: "Lactigo Logo" },
      { src: "/assets/logos/realTurmat.png", alt: "Real Turmat Logo" },
+        { src: "/assets/logos/sidas.png", alt: "Sidas Logo" }
 ];
 
 
@@ -40,7 +41,7 @@ export default function ScrollingLogos() {
           width={200}
           sizes="100vw"
          className={`h-full object-contain ${
-    logo.alt === "Dacia Logo" ? "max-w-[170px]" : "w-auto"
+    logo.alt === "Dacia Logo" ? "max-w-[170px]" : logo.alt === "Sidas Logo" ? " min-h-[60px]" : logo.alt === "Real Turmat Logo" ? "min-h-[45px]": "w-auto"
   }`}
         />
       </div>
