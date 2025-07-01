@@ -8,6 +8,7 @@ const baseLogos = [
   { src: "/assets/logos/silva.png", alt: "Silva Logo" },
   { src: "/assets/logos/stf.png", alt: "Stf Logo" },
    { src: "/assets/logos/lactigo.png", alt: "Lactigo Logo" },
+     { src: "/assets/logos/realTurmat.png", alt: "Real Turmat Logo" },
 ];
 
 

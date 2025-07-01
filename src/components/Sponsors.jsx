@@ -55,6 +55,16 @@ export default function Sponsors() {
             className="h-auto w-full object-contain"
           />
         </div>
+           <div className="relative w-auto h-auto max-w-[130px]">
+          <Image
+            src="/assets/logos/realTurmat.png"
+            alt="Real Turmat Logo"
+            width={0}
+            height={0}
+            sizes="(max-width: 768px) 100vw"
+            className="h-auto w-full object-contain"
+          />
+        </div>
       </div>
     
     </section>
