@@ -34,15 +34,14 @@ export default function ScrollingLogos() {
             <Image
               src={logo.src}
               alt={logo.alt}
-              height={30}
-              width={200}
+              height={40}
+              width={100}
               sizes="100vw"
-              style={{ height: "auto" }}
               className={`h-full object-contain ${
                 logo.alt === "Dacia Logo"
-                  ? "max-w-[170px]"
+                  ? "min-w-[170px]"
                   : logo.alt === "Sidas Logo"
-                  ? " min-h-[60px]"
+                  ? "min-h-[50px] w-auto"
                   : logo.alt === "Real Turmat Logo"
                   ? "min-h-[45px]"
                   : "w-auto"
