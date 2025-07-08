@@ -1,13 +1,15 @@
 import Swish from "@/components/Hero/swish/Swish";
 import Image from "next/image";
+import HuvudSponsor from "./HuvudSponsor";
 
 export default function Header() {
   return (
     <header
       id="home"
       data-theme="dark"
-           className="relative grid md:grid-cols-2 grid-cols-1 h-auto md:min-h-[640px] min-h-[1000px] w-full overflow-hidden md:p-9"
+           className="relative grid md:grid-cols-2 grid-cols-1 h-auto md:min-h-[640px] min-h-[1000px] w-full overflow-hidden md:p-15 md:pt-25  pt-20"
     >
+      <HuvudSponsor />
           <Image
         src="/assets/FFTH-BG2.png"
         alt="Background image of ice in blue tones"

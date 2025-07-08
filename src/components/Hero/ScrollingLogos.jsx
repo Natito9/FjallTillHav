@@ -9,6 +9,7 @@ const baseLogos = [
   { src: "/assets/logos/lactigo.png", alt: "Lactigo Logo" },
   { src: "/assets/logos/realTurmat.png", alt: "Real Turmat Logo" },
   { src: "/assets/logos/sidas.png", alt: "Sidas Logo" },
+   { src: "/assets/logos/houdini.png", alt: "Houdini Logo" }
 ];
 
 const logos = [...baseLogos, ...baseLogos, ...baseLogos];

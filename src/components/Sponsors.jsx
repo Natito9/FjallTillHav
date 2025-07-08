@@ -75,6 +75,17 @@ export default function Sponsors() {
             className="h-auto w-full object-contain"
           />
         </div>
+          <div className="relative w-auto h-auto max-w-[170px]">
+          <Image
+            src="/assets/logos/houdini.png"
+            alt="Houdini Logo"
+            width={0}
+            height={0}
+            sizes="(max-width: 768px) 100vw"
+            className="h-auto w-full object-contain"
+          />
+          </div>
+        
       </div>
     </section>
   );
