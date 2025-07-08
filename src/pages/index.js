@@ -12,7 +12,7 @@ import Ocean from "@/components/Ocean";
 import Footer from "@/components/footer/Footer";
 import ScrollingLogos from "@/components/Hero/ScrollingLogos";
 import Sponsors from "@/components/Sponsors";
-import Map from "@/components/map";
+import Map from "@/components/Map";
 
 export default function Home() {
   return (
