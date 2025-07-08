@@ -3,6 +3,7 @@ import NavBar from "@/components/NavBar";
 import Header from "@/components/Hero/Header";
 import Intro from "@/components/Intro";
 import BannerKr from "@/components/BannerKr";
+import Map from "@/components/map"; 
 import VideoProject from "@/components/videos/VideoProject";
 import SpringerSection from "@/components/SpringerSection";
 import VideoDocumentary from "@/components/videos/VideoDocumentary";
@@ -21,6 +22,7 @@ export default function Home() {
       <Header />
       <ScrollingLogos />
       <BannerKr />
+      <Map />
       <Intro />
       <VideoProject />
       <SpringerSection />

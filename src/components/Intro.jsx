@@ -26,7 +26,7 @@ export default function Intro() {
           </h2>
   
           <p className="pb-2">
-          Den 8 juli knyter vi skorna i Abisko. Då startar vår utmaning: att springa hela Kungsleden – över 440 kilometer genom Sveriges vildaste natur.
+          Den 10 juli knyter vi skorna i Abisko. Då startar vår utmaning: att springa hela Kungsleden – över 440 kilometer genom Sveriges vildaste natur.
 
           </p>
           <p className="pb-2">
