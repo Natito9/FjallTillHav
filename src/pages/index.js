@@ -22,7 +22,7 @@ export default function Home() {
       <Header />
       <ScrollingLogos />
       <BannerKr />
-      <Map />
+      {/* <Map /> */}
       <Intro />
       <VideoProject />
       <SpringerSection />
