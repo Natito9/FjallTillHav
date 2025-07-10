@@ -10,7 +10,7 @@ export default function Map() {
       </div>
       <div className="md:h-[600px] h-[500px] w-full md:w-[90%] max-w-[900px] relative">
         <iframe
-          src="https://livetrack.garmin.com/session/1edfcf6a-43ab-8b72-a40d-607587189d01/token/3C5596AC4BBDFA11E057785C168F5017"
+          src="https://live.garmin.com/session/663a25b4-7db2-89fb-bdb4-7e9a02440201/token/76E77FE69EAE1D1BF5345FF26F93F324"
           width="100%"
           height="100%"
           style={{ border: "none" }}
