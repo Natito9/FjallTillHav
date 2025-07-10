@@ -13,6 +13,7 @@ import Footer from "@/components/footer/Footer";
 import ScrollingLogos from "@/components/Hero/ScrollingLogos";
 import Sponsors from "@/components/Sponsors";
 import Map from "@/components/Map";
+import InstaPosts from "@/components/InstaPosts";
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
       <ScrollingLogos />
       <BannerKr />
       <Map />
+      <InstaPosts />
       <Intro />
       <VideoProject />
       <SpringerSection />
