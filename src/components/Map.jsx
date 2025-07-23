@@ -3,10 +3,7 @@ export default function Map() {
     <section className="md:h-[90vh] px-9 py-15 flex flex-col justify-center items-center w-full bg-black">
       <div className="flex justify-center items-center md:pb-8 pb-4 gap-5 ">
         <h3 className="text-xl font-semibold text-center text-white">Följ oss på äventyret</h3>
-        <div className="flex items-center gap-4 ml-4">
-          <p className="md:text-xl text-md font-semibold text-red-400">Live</p>
-          <div className="w-3 h-3 rounded-full bg-red-500 animate-ping" />
-        </div>
+    
       </div>
       <div className="md:h-[600px] h-[500px] w-full md:w-[90%] max-w-[900px] relative">
         <iframe
