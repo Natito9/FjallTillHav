@@ -12,7 +12,6 @@ import Ocean from "@/components/Ocean";
 import Footer from "@/components/footer/Footer";
 import ScrollingLogos from "@/components/Hero/ScrollingLogos";
 import Sponsors from "@/components/Sponsors";
-import Map from "@/components/Map";
 import InstaPosts from "@/components/InstaPosts";
 import VideoTv4 from "@/components/videos/VideoTv4";
 
@@ -24,7 +23,6 @@ export default function Home() {
       <Header />
       <ScrollingLogos />
       <BannerKr />
-      <Map />
       <InstaPosts />
       <Intro />
       <VideoTv4 />
