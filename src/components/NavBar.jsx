@@ -40,6 +40,11 @@ export default function NavBar() {
             Projekt
           </a>
         </li>
+         <li>
+          <a href="#presentation" className={`no-underline font-bold transition-colors px-4 py-2  ${textColor}  hover:border-b-2 `}>
+            Föreläsning
+          </a>
+        </li>
         <li>
           <a href="#aboutUs" className={`no-underline font-bold transition-colors px-4 py-2  ${textColor}  hover:border-b-2 `}>
             Om oss

@@ -14,6 +14,7 @@ import ScrollingLogos from "@/components/Hero/ScrollingLogos";
 import Sponsors from "@/components/Sponsors";
 import InstaPosts from "@/components/InstaPosts";
 import VideoTv4 from "@/components/videos/VideoTv4";
+import FranfjallTillHav from "@/components/FranFjallTillHav";
 
 export default function Home() {
   return (
@@ -26,6 +27,7 @@ export default function Home() {
       <InstaPosts />
       <Intro />
       <VideoTv4 />
+      <FranfjallTillHav />
       <SpringerSection />
       <VideoProject />
       <FundingLevels />
