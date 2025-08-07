@@ -18,26 +18,31 @@ export default function Intro() {
       >
         
           <h1 className=" uppercase text-5xl md:text-5xl font-extrabold mb-4 font-[Arial Black] tracking-tight pb-3">
-            Från Fjäll till Hav
+           Vi har sprungit för glaciärerna
           </h1>
   
           <h2 className=" !text-white text-2xl md:text-1xl font-extrabold mb-4 font-[Arial Black] pb-5">
-          Vi springer för glaciärerna
+       Insamlingen förtsätter
           </h2>
   
           <p className="pb-2">
-          Den 10 juli knyter vi skorna i Abisko. Då startar vår utmaning: att springa hela Kungsleden – över 440 kilometer genom Sveriges vildaste natur.
+          Den 10 juli snörade vi skorna i Abisko. En dryg vecka senare stod vi i Hemavan – efter att ha sprungit hela Kungsleden. Över 440 kilometer genom Sveriges vildaste natur.
 
           </p>
           <p className="pb-2">
-          Varje krona motsvarar en meter vi springer. Pengarna går till finansieringen av dokumentären Guardians of the Glacier, och överskottet från insamlingen skänks till Hands2Ocean, en organisation som kämpar mot plastföroreningar i haven.
+          Men Från Fjäll till Hav är långt ifrån över. Insamlingen pågår till 31 december, och varje krona du bidrar med motsvarar fortfarande en meter vi sprungit.
 
           </p>
           <p className="pb-2">
-          Genom Från Fjäll till Hav förenar vi äventyr och engagemang.
+          Pengarna går till att skapa dokumentären Guardians of the Glacier – en film om klimatförändringarna i fjällen - DU kan vara med och producera detta och sprida budskapet.
+
           </p>
           <p className="pb-2">
-          Tillsammans visar vi att hopp, mod och kärlek till naturen kan skapa verklig förändring.
+          Överskottet skänks till Hands 2 Ocean, dykare, som kämpar mot föroreningarna i våra svenska vatten.
+
+          </p>
+            <p className="pb-2">
+         Vi förenar äventyr med engagemang, och visar att hopp, mod och kärlek till naturen kan skapa verklig förändring.
 
           </p>
         </div>
