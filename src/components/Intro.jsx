@@ -22,7 +22,7 @@ export default function Intro() {
           </h1>
   
           <h2 className=" !text-white text-2xl md:text-1xl font-extrabold mb-4 font-[Arial Black] pb-5">
-       Insamlingen förtsätter
+       Insamlingen fortsätter
           </h2>
   
           <p className="pb-2">
