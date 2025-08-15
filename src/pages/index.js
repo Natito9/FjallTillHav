@@ -15,6 +15,7 @@ import Sponsors from "@/components/Sponsors";
 import InstaPosts from "@/components/InstaPosts";
 import VideoTv4 from "@/components/videos/VideoTv4";
 import FranfjallTillHav from "@/components/FranFjallTillHav";
+import VideoKungsdelenShort from "@/components/videos/VideoKungsdelenShort";
 
 export default function Home() {
   return (
@@ -34,6 +35,7 @@ export default function Home() {
       <VideoDocumentary />
       <AboutUs />
       <Ocean />
+      <VideoKungsdelenShort />
       <Sponsors />
       <Footer />
     </>
